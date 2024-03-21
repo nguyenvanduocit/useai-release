@@ -969,7 +969,7 @@ Do not include caveats or disclaimers.
 Use step-by-step reasoning. Be brief.`.trim();
 var DEFAULT_SETTINGS = {
   apiKey: "",
-  apiModel: "gpt-4-1106-preview",
+  apiModel: "gemini-1.0-pro-latest",
   temperature: 1,
   systemPrompt: DEFAULT_SYSTEM_PROMPT,
   debug: false,
@@ -990,16 +990,14 @@ var SettingsTab = class extends import_obsidian5.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian5.Setting(containerEl).setName("Model").setDesc("Select the GPT model to use.").addText((cb) => {
+    new import_obsidian5.Setting(containerEl).setName("Model").setDesc("Gemini model to use").addText((cb) => {
       cb.setValue(this.plugin.settings.apiModel);
       cb.onChange(async (value) => {
         this.plugin.settings.apiModel = value;
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(containerEl).setName("API key").setDesc(
-      "The API key to use when making requests - Get from OpenAI"
-    ).addText((text) => {
+    new import_obsidian5.Setting(containerEl).setName("API key").setDesc("The API key to use when making requests - Get from Google Makersuite").addText((text) => {
       text.inputEl.type = "password";
       text.setPlaceholder("API Key").setValue(this.plugin.settings.apiKey).onChange(async (value) => {
         this.plugin.settings.apiKey = value;
@@ -1018,9 +1016,7 @@ var SettingsTab = class extends import_obsidian5.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian5.Setting(containerEl).setName("Max input tokens").setDesc(
-      "The maximum number of tokens to send (within model limit). 0 means as many as possible"
-    ).addText(
+    new import_obsidian5.Setting(containerEl).setName("Max input tokens").setDesc("The maximum number of tokens to send (within model limit). 0 means as many as possible").addText(
       (text) => text.setValue(this.plugin.settings.maxInputTokens.toString()).onChange(async (value) => {
         const parsed = parseInt(value);
         if (!isNaN(parsed)) {
@@ -1029,9 +1025,7 @@ var SettingsTab = class extends import_obsidian5.PluginSettingTab {
         }
       })
     );
-    new import_obsidian5.Setting(containerEl).setName("Max response tokens").setDesc(
-      "The maximum number of tokens to return from the API. 0 means no limit. (A token is about 4 characters)."
-    ).addText(
+    new import_obsidian5.Setting(containerEl).setName("Max response tokens").setDesc("The maximum number of tokens to return from the API. 0 means no limit. (A token is about 4 characters).").addText(
       (text) => text.setValue(this.plugin.settings.maxResponseTokens.toString()).onChange(async (value) => {
         const parsed = parseInt(value);
         if (!isNaN(parsed)) {
@@ -1040,9 +1034,7 @@ var SettingsTab = class extends import_obsidian5.PluginSettingTab {
         }
       })
     );
-    new import_obsidian5.Setting(containerEl).setName("Max depth").setDesc(
-      "The maximum depth of ancestor notes to include. 0 means no limit."
-    ).addText(
+    new import_obsidian5.Setting(containerEl).setName("Max depth").setDesc("The maximum depth of ancestor notes to include. 0 means no limit.").addText(
       (text) => text.setValue(this.plugin.settings.maxDepth.toString()).onChange(async (value) => {
         const parsed = parseInt(value);
         if (!isNaN(parsed)) {
