@@ -1,7 +1,7 @@
 {
 	"id": "use-ai",
 	"name": "UseAI",
-	"minAppVersion": "0.12.2",
+	"minAppVersion": "0.15.0",
 	"description": "Integrate multiple AI models into Obsidian, help you to analyze, generate notes and especially: Chat with AI in canvas how look like Marvel multi-verse, you can fork a conversation into multiple branchs, combine, ...",
 	"author": "duocnv",
 	"authorUrl": "https://twitter.com/duocdev",
@@ -9,5 +9,5 @@
 		"Buy Me a Coffee": "https://paypal.me/duocnguyen",
 		"Follow me": "https://twitter.com/duocdev"
 	},
-	"version": "0.7.23"
+	"version": "0.12.31"
 }
