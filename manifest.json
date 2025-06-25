@@ -2,12 +2,12 @@
 	"id": "use-ai",
 	"name": "UseAI",
 	"minAppVersion": "0.15.0",
-	"description": "Integrate multiple AI models into Obsidian, help you to analyze, generate notes and especially: Chat with AI in canvas how look like Marvel multi-verse, you can fork a conversation into multiple branchs, combine, ...",
+	"description": "Transform your thinking with visual AI conversations on Canvas. Fork ideas into multiple branches, explore concepts from different angles, and create knowledge networks that think like you do - not just linear chats.",
 	"author": "duocnv",
 	"authorUrl": "https://twitter.com/duocdev",
 	"fundingUrl": {
 		"Buy Me a Coffee": "https://paypal.me/duocnguyen",
 		"Follow me": "https://twitter.com/duocdev"
 	},
-	"version": "0.12.43"
+	"version": "0.12.44"
 }

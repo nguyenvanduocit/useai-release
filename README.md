@@ -1,25 +1,118 @@
-# Obsidian AI
+# UseAI - Transform Your Thinking with Visual AI Conversations
 
- > Harness the power of artificial intelligence to transform your Obsidian workflow
+> **Why limit yourself to linear AI chats when you can create an entire universe of interconnected ideas?**
 
-![](https://github.com/nguyenvanduocit/obsidian-ai/assets/1256953/e7a485d1-147c-4543-bac5-015759212017
-)
+UseAI revolutionizes how you interact with AI in Obsidian. Instead of traditional chat interfaces, UseAI brings AI directly into **Obsidian Canvas** - where every thought becomes a node, every question branches into multiple explorations, and your entire thinking process becomes a living, visual mind map.
 
-## Intro
+## 🌟 What Makes UseAI Different?
 
-Obsidian AI seamlessly integrates cutting-edge AI models into your Obsidian experience. Supercharge your note-taking, ideation, and content creation with AI-powered assistance.
+### 🎭 **"Marvel Multiverse" for AI Conversations**
+- **Fork conversations** into parallel branches
+- **Explore multiple directions** from a single idea  
+- **Combine different thought streams**
+- **Create knowledge networks** instead of linear Q&A lists
 
-## Key Features
+### 🧠 **Visual Thinking, Not Just Text**
+- Each idea becomes an **independent node** you can move and connect
+- **Spatial relationships** between nodes influence AI context
+- **Colors and positioning** help organize and categorize thoughts
+- **Zoom out** for big picture, **zoom in** for details
 
-1. Canvas-Based AI Generation: Unleash AI-driven creativity directly within Obsidian's versatile canvas.
-2. In-Note Text Generation: Augment your writing effortlessly with AI-powered text generation.
-3. For both case, we support:  Get summaries, translations, rephrasing suggestions, or expansions of your existing content, right where you need them.
+### ⚡ **AI Understands Spatial Context**
+- AI doesn't just read text - it **understands Canvas structure**
+- **Connected nodes** provide richer context
+- **Relative positioning** influences AI responses
+- **Conversation history** preserved through connections
 
-## Demo
+## 🎯 Perfect For
 
-1. [Chat with Video](https://www.youtube.com/watch?v=NPlh5k7tRKI)
-2. [Chat with Website](https://www.youtube.com/watch?v=RayL_WjY9Ic)
+### 📚 **Researchers & Students**
+*"I need to explore topics from multiple angles"*
+- Create research mind maps with AI assistance
+- Fork questions into multiple exploration paths
+- Connect ideas from various sources
 
-## Installation
+### ✍️ **Writers & Content Creators**  
+*"I want to develop ideas creatively"*
+- Brainstorm with AI on Canvas
+- Create complex outlines with multiple branches
+- Explore character development and plot alternatives
 
-[Install Vida BRAT](obsidian://brat?plugin=https://github.com/nguyenvanduocit/useai-release)
+### 🏢 **Teams & Collaborators**
+*"We need to organize team ideas visually"*
+- Collaborative thinking with AI support
+- Visual project planning
+- Knowledge mapping for teams
+
+### 🔬 **Deep Thinkers**
+*"I want to explore complex concepts thoroughly"*
+- Deep dive into philosophical questions
+- Explore multiple perspectives simultaneously
+- Build complex argument structures
+
+## ⭐ Key Features
+
+### 🎨 **Visual AI Conversations**
+- Right-click any node → "Generate with AI"
+- AI creates responses in connected new nodes
+- Colors automatically distinguish different AI models
+
+### 🌿 **Conversation Branching**
+- From 1 question → create multiple different AI responses
+- Compare perspectives from different models
+- Explore alternative solutions in parallel
+
+### 🧩 **Smart Node Creation**
+- AI automatically places nodes in logical positions
+- Detects patterns in your layout preferences
+- Maintains visual consistency
+
+### 🔄 **Context Awareness**
+- AI understands entire Canvas structure
+- Connected nodes provide rich context
+- Spatial relationships influence responses
+
+### 🎛️ **Multi-Model Support**
+- Google (Gemini)
+
+## 🚀 Quick Start
+
+### **Installation**
+1. Download latest release from GitHub
+2. Extract files to your Obsidian plugins folder  
+3. Enable "UseAI" in Community Plugins
+4. Add API keys in Settings → UseAI
+
+### **First Experience**
+1. Open a new Canvas in Obsidian
+2. Create a text node with your question
+3. Right-click → "Generate with AI"
+4. Watch your ideas come alive! ✨
+
+## 🎪 Real-World Examples
+
+### **Research Planning**
+```
+[AI Ethics Research]
+├── [Current Issues] → [Bias Problems] → [Solutions]
+├── [Philosophy] → [Moral Frameworks] → [Applications]  
+├── [Technical] → [Explainability] → [Transparency]
+└── [Future] → [Regulation] → [Standards]
+```
+
+### **Creative Writing**
+```
+[Story: Time Travel]
+├── [Character Arc A] → [Past] → [Consequences]
+├── [Character Arc B] → [Future] → [Paradoxes]
+├── [Plot Branch 1] → [Romance] → [Happy End]
+└── [Plot Branch 2] → [Tragedy] → [Lesson]
+```
+
+## 📜 License
+
+MIT License
+
+---
+
+**UseAI: Where AI meets Visual Thinking** 🧠✨
