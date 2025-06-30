@@ -1,5 +1,5 @@
 {
-	"id": "use-ai",
+	"id": "useai",
 	"name": "UseAI",
 	"minAppVersion": "0.15.0",
 	"description": "Transform your thinking with visual AI conversations on Canvas. Fork ideas into multiple branches, explore concepts from different angles, and create knowledge networks that think like you do - not just linear chats.",
@@ -9,5 +9,5 @@
 		"Buy Me a Coffee": "https://paypal.me/duocnguyen",
 		"Follow me": "https://twitter.com/duocdev"
 	},
-	"version": "0.12.49"
+	"version": "0.12.53"
 }
